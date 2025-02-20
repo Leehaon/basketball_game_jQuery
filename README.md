@@ -49,7 +49,7 @@ __플러그인 사용 : jquery.animateNumber 플러그인을 통해 점수판의
 
 __📌 1. DOM 조작__ | __💥 2. 이벤트 처리__ | __🌍 3. 전역 변수와 지역 변수__ | __🔁 4. 콜백 함수와 비동기 처리__
 ---|---|---|---
-Vanilla JS에서는 innerHTML을 <br> 사용하여 텍스트를 업데이트 <br> 했지만, jQuery에서는 <br> .html()로 더 간단하게 처리함 | 초기에는 onclick <br> 속성을 사용했으나, <br> jQuery에서는 .on('click', function() {})으로 더 깔끔하게 <br> 이벤트를 처리함 | 초기에는 모든 게임 <br> 상태를 전역 변수로 <br> 관리했으나, 객체와 <br> 함수의 도입으로 전역 <br> 변수 사용을 최소화 | .fadeOut()과 .fadeIn()을 <br> 콜백 함수로 연결하여 화면 <br> 전환 시 깜빡이는 현상을 <br> 제거함
+Vanilla JS에서는 innerHTML을 <br> 사용하여 텍스트를 업데이트 <br> 했지만, jQuery에서는 <br> .html()로 더 간단하게 처리함 | 초기에는 onclick <br> 속성을 사용했으나, <br> jQuery에서는 .on('click', function() {})으로 더 깔끔하게 <br> 이벤트를 처리함 | 초기에는 모든 게임 <br> 상태를 전역 변수로 <br> 관리했으나, 객체와 <br> 함수의 도입으로 전역 <br> 변수 사용을 최소화 | .fadeOut()과 .fadeIn()을 <br> 콜백 함수로 연결하여 <br> 화면 전환 시 깜빡이는 <br> 현상을 제거함
 버튼 비활성화는 element.disabled = true 대신 .prop('disabled', true)로 구현 | 이벤트 리스너를 분리하여 코드의 가독성을 높임 | game, computer, user 객체를 통해 상태와 관련 로직을 관리함 | 비동기 함수의 제어권 반환과 콜백 함수의 실행 순서를 이해함
 
 ## 🆚 jQuery 적용의 장단점
