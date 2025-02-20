@@ -1,4 +1,3 @@
-
 let computer = {
   score: 0,
   percent2: 0.5,
@@ -65,11 +64,9 @@ function updateUserScore(score) {
   // 제이쿼리 플러그인 적용
   user.score += score;
   let $userScoreElement = $('#user-score');
-
   $userScoreElement.animateNumber({
     number: user.score
   });
-
 } 
 
 function disableComButton(flag) {
